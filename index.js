@@ -9,7 +9,7 @@ const LOGIN_COMMAND = '/l 12345678'   // Команда логина
 const AFK_TIME = 60 * 60 * 1000        // 1 час (в миллисекундах)
 
 // Точка, куда бот должен прийти и стоять
-const TARGET_POS = { x: 100, y: 65, z: 390 }
+const TARGET_POS = { x: -348, y: 243, z: 143 }
 
 function startBot() {
   const bot = mineflayer.createBot({
@@ -56,5 +56,6 @@ function startBot() {
     console.error('[BOT] Ошибка:', err)
   })
 }
+
 
 startBot()
