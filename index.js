@@ -9,7 +9,7 @@ const LOGIN_COMMAND = '/l 12345678'   // Команда логина
 const AFK_TIME = 60 * 60 * 1000        // 1 час (в миллисекундах)
 
 // Точка, куда бот должен прийти и стоять
-const TARGET_POS = { x: 1422, y: 185, z: 596 }
+const TARGET_POS = { x: -348, y: 243, z: 143 }
 //{ x: 1422, y: 185, z: 596 } порох
 //{ x: -348, y: 243, z: 143 } золото
 
@@ -61,6 +61,7 @@ function startBot() {
 
 
 startBot()
+
 
 
 
